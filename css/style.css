@@ -73,7 +73,10 @@ nav.navbar-transparente {
 
 .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, .5);
-    border-color: rgb(255, 255, 255);
+    border: none;
+}
+.navbar-light .navbar-toggler:focus {
+    outline: none;
 }
 
 /****Capa ****/
