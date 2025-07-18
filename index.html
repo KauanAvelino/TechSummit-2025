@@ -1,26 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InovaSummit-2025</title>
-
-    <!--Estilo CSS-->
-    <link rel="stylesheet" href="css/style.css">
-
-    <!--Normalize CSS-->
-    <link rel="stylesheet" href="css/normalize.css">
+    <title>TechSummit-2025</title>
+    <link rel="icon" href="img/TechSummit-favIcon.png">
 
     <!--Bootstrap 4-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <!--Normalize CSS-->
+    <link rel="stylesheet" href="css/normalize.css">
     <!--Font Awesome-->
-
     <link rel="stylesheet" href="font awesome/css/all.min.css">
+    <!--Estilo CSS-->
+    <link rel="stylesheet" href="css/style.css">
 
+
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+    <![endif]-->
 
 </head>
+
 <body>
-    
+
+    <header><!--Cabeçalho-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+            <div class="container"><!--Container-->
+
+                <a href="index.html" class="navbar-brand"><!--Logo-->
+                    <img src="img/TechSummit-Logo.png" width="142">
+                </a><!--/Logo-->
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu"> <!--Botão Menu-->
+                    <i class="fa-solid fa-bars text-white"></i>
+                </button> <!--/Botão Menu-->
+
+                <div class="collapse navbar-collapse" id="nav-menu"><!--Navbar menu-->
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Sobre" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Programação" class="nav-link">Programação</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Palestras" class="nav-link">Palestras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Inscricao" class="nav-link">Inscrição</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Local" class="nav-link">Local</a>
+                        </li>
+                    </ul>
+                </div><!--/Navbar menu-->
+            </div><!--/Container-->
+        </nav>
+    </header><!--/Cabeçalho-->
+
+
+    <section id="home" class="d-flex"><!--Capa-->
+        <div class="container align-self-center capa"><!--Container-->
+            <div class="row"><!--Inicio da Row-->
+                <div class="col-md-12"><!--Col-->
+                    <h1 class="display-1">TechSummit 2025</h1>
+                    <p>15 a17 de Agosto - São Paulo, SP</p>
+                    <a href="index.html" class="btn btn-custom btn-branco btn-lg">
+                        Venha participar
+                    </a>
+                </div><!--/Col-->
+            </div><!--/Row-->
+        </div><!--/Container-->
+    </section><!--/Capa-->
+
+    <section id="sobre" class="caixa">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"><!--Texto-->
+                    <h2>Sobre o evento</h2><br><br>
+
+                    <h3>O que você verá</h3>
+                    <p>
+                        O TechSummit 2025 é um evento dedicado à inovação, tecnologia e tendências do setor. Você terá
+                        acesso a palestras com especialistas renomados, painéis interativos, oportunidades de networking
+                        e demonstrações de novas soluções tecnológicas. Prepare-se para expandir seus conhecimentos e
+                        conectar-se com profissionais do mercado.
+                    </p><br><br>
+
+                    <h3>Objetivo do evento</h3>
+                    <p>
+                        O objetivo do TechSummit 2025 é promover o compartilhamento de conhecimento, estimular a
+                        colaboração entre profissionais e apresentar as principais novidades do universo tecnológico. O
+                        evento busca inspirar inovação, fomentar o desenvolvimento de soluções criativas e fortalecer a
+                        comunidade de tecnologia no Brasil.
+                    </p><br><br>
+
+                    <h3>Quem pode participar?</h3>
+                    <p>
+                        O evento é aberto para estudantes, profissionais, empreendedores e entusiastas de tecnologia de
+                        todos os níveis. Basta ter interesse em inovação e vontade de aprender e compartilhar
+                        experiências.
+                    </p><br><br>
+
+                </div><!--/texto-->
+                <div class="col-md-6"><!--Imagem-->
+                   <div class="row">
+                    <div class="col-md-12">
+                        <img src="img/Sobre-Palestra.png" alt="" class="img-fluid mt-5 mb-5">
+                    </div>
+                    <div class="col-md-12">
+                        <img src="img/Sobre-Palestra.png" alt="" class="img-fluid mt-5 mb-5">
+                    </div>
+                   </div>
+
+                    
+                </div><!--/Imagem-->
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
