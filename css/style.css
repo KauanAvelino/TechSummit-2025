@@ -111,13 +111,23 @@ nav.navbar-transparente {
 }
 
 #sobre {
-    background: #000 url("../img/fundo_sobre.jpg")center center;
     
 }
 
 #sobre h2,
 #sobre h3 {
     color: #9500FF;
+}
+
+
+/****Parallax ***/
+
+.parallax-sobre{
+    background: url("../img/fundo_sobre.jpg")no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /****Responsividade ****/
