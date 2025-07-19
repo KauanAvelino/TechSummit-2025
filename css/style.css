@@ -121,7 +121,7 @@ nav.navbar-transparente {
     color: #9500FF;
 }
 
-#programacao h2 {
+#programacao h2{
     text-align: center;
 }
 
@@ -136,6 +136,35 @@ nav.navbar-transparente {
     background-attachment: fixed;
 }
 
+.parallax-convidados {
+    background: url("../img/Convidados-capa.png")no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 3em;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
 
 /******Cards *****/
 
@@ -145,19 +174,58 @@ nav.navbar-transparente {
 }
 
 .card-title {
+    color: #E100FF !important;
+    margin-bottom: 20px;
+}
+
+#convidados .card-title {
     color: #9500FF !important;
     margin-bottom: 20px;
 }
+
 .card-subtitle {
-    color: #9500FF !important;
+    color: #E100FF !important;
     margin-top: 20px;
 }
 
-    .card-text li{
-        color: #000;
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
+.card-text li {
+    color: #000;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/***cards convidados */
+
+.card-convidados {
+    min-height: 100%;
+}
+
+.card-convidados img {
+    border-radius: 40px;
+}
+
+.card-convidados .card-text {
+    color: #000;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.card-convidados span{
+    font-weight: bold;
+    color: #9500FF;
+}
+
+#convidados{
+    min-height: 100vh;
+
+}
+
+
+/***Carousel convidados ***/
+
+
+
+
 
 /****Responsividade ****/
 
