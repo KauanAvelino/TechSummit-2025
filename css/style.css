@@ -37,6 +37,7 @@ h2 {
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: -0.04em;
+    color: white;
 }
 
 h3 {
@@ -75,6 +76,7 @@ nav.navbar-transparente {
     color: rgba(0, 0, 0, .5);
     border: none;
 }
+
 .navbar-light .navbar-toggler:focus {
     outline: none;
 }
@@ -108,13 +110,10 @@ nav.navbar-transparente {
     background: white;
     color: black;
 }
+
 /*************Estrutura dos Conteudos****************/
 .caixa {
     padding: 30px;
-}
-
-#sobre {
-    
 }
 
 #sobre h2,
@@ -122,16 +121,43 @@ nav.navbar-transparente {
     color: #9500FF;
 }
 
+#programacao h2 {
+    text-align: center;
+}
+
 
 /****Parallax ***/
 
-.parallax-sobre{
+.parallax-sobre {
     background: url("../img/fundo_sobre.jpg")no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
+
+
+/******Cards *****/
+
+.card {
+    border-radius: 50px;
+    height: 100%;
+}
+
+.card-title {
+    color: #9500FF !important;
+    margin-bottom: 20px;
+}
+.card-subtitle {
+    color: #9500FF !important;
+    margin-top: 20px;
+}
+
+    .card-text li{
+        color: #000;
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
 
 /****Responsividade ****/
 
@@ -181,4 +207,4 @@ nav.navbar-transparente {
     h1.display-1 {
         font-size: 6rem;
     }
-}    
+}
