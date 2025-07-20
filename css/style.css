@@ -149,6 +149,19 @@ nav.navbar-transparente {
     opacity: 0.9;
 }
 
+.parallax-inscricao {
+    background: url("../img/inscricao-capa.png")no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+}
+
 .conteudo-titulo {
     position: absolute;
     left: 0%;
@@ -217,15 +230,42 @@ nav.navbar-transparente {
 
 #convidados{
     min-height: 100vh;
+}
 
+/***Formulário de inscrição ***/
+#inscricao {
+    min-height: 100vh;
 }
 
 
 /***Carousel convidados ***/
 
 
+.carousel-controls-below {
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
+.carousel-controls-below .carousel-control-prev,
+.carousel-controls-below .carousel-control-next {
+    position: static;
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    transition: background 0.3s, color 0.3s;
+}
 
+.carousel-controls-below .carousel-control-prev:hover,
+.carousel-controls-below .carousel-control-next:hover {
+    color: #E100FF;
+}
 
 /****Responsividade ****/
 

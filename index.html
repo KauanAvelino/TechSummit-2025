@@ -18,7 +18,7 @@
 
 
     <!--[if lt IE 9]>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
     <![endif]-->
 
 </head>
@@ -46,10 +46,10 @@
                             <a href="#sobre" class="nav-link">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#programação" class="nav-link">Programação</a>
+                            <a href="#programacao" class="nav-link">Programação</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#palestras" class="nav-link">Palestras</a>
+                            <a href="#convidados" class="nav-link">Convidados</a>
                         </li>
                         <li class="nav-item">
                             <a href="#inscricao" class="nav-link">Inscrição</a>
@@ -217,7 +217,7 @@
         </div><!--/Container-->
     </section><!--/Programação do evento-->
 
-    <section class="caixa parallax-convidados" id="convidados-capa"><!--Convidados-capa-->
+    <section class="caixa parallax-convidados"><!--Convidados-capa-->
         <div class="container" style="position:relative;">
             <div class="conteudo-titulo">
                 <span class="titulo"> Convidados</span>
@@ -232,7 +232,7 @@
                 <div class="carousel-inner"><!--Inner-->
                     <div class="carousel-item active"><!--Carousel item 1 -->
                         <div class="row d-flex align-items-stretch"><!--Row-->
-                            <div class="col-md-6 mb-5 d-flex">
+                            <div class="col-md-6 mb-5 d-flex px-4">
                                 <div class="card card-convidados text-left h-100 w-100"><!--Card-->
                                     <div class="card-body">
                                         <div class="row"><!--Imagem e texto-->
@@ -265,7 +265,7 @@
                                     </div>
                                 </div><!--/Card-->
                             </div>
-                            <div class="col-md-6 mb-5 d-flex">
+                            <div class="col-md-6 mb-5 d-flex px-4">
                                 <div class="card card-convidados text-left  h-100 w-100"><!--Card-->
                                     <div class="card-body">
                                         <div class="row"><!--Imagem e texto-->
@@ -300,7 +300,7 @@
                     </div><!--/Carousel item 1-->
                     <div class="carousel-item"><!--Carousel item 2-->
                         <div class="row d-flex align-items-stretch"><!--Row-->
-                            <div class="col-md-6 mb-5 d-flex">
+                            <div class="col-md-6 mb-5 d-flex px-4">
                                 <div class="card card-convidados text-left h-100 w-100"><!--Card-->
                                     <div class="card-body">
                                         <div class="row"><!--Imagem e texto-->
@@ -333,7 +333,7 @@
                                     </div>
                                 </div><!--/Card-->
                             </div>
-                            <div class="col-md-6 mb-5 d-flex">
+                            <div class="col-md-6 mb-5 d-flex px-4">
                                 <div class="card card-convidados text-left  h-100 w-100"><!--Card-->
                                     <div class="card-body">
                                         <div class="row"><!--Imagem e texto-->
@@ -370,7 +370,7 @@
 
                     <div class="carousel-item"><!--Carousel item 3-->
                         <div class="row d-flex align-items-stretch"><!--Row-->
-                            <div class="col-md-6 mb-5 d-flex">
+                            <div class="col-md-6 mb-5 d-flex px-4">
                                 <div class="card card-convidados text-left h-100 w-100"><!--Card-->
                                     <div class="card-body">
                                         <div class="row"><!--Imagem e texto-->
@@ -403,7 +403,7 @@
                                     </div>
                                 </div><!--/Card-->
                             </div>
-                            <div class="col-md-6 mb-5 d-flex">
+                            <div class="col-md-6 mb-5 d-flex px-4">
                                 <div class="card card-convidados text-left h-100 w-100"><!--Card-->
                                     <div class="card-body">
                                         <div class="row"><!--Imagem e texto-->
@@ -440,14 +440,73 @@
                         </div><!--/Row-->
                     </div><!--/Carousel item 3-->
                 </div><!--/Inner-->
-
+                <div class="carousel-controls-below">
+                    <a href="#carousel-convidados" class="carousel-control-prev" data-slide="prev">
+                        <i class="fas fa-angle-left fa-3x"></i>
+                    </a>
+                    <a href="#carousel-convidados" class="carousel-control-next" data-slide="next">
+                        <i class="fas fa-angle-right fa-3x"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </section><!--/Convidados-->
 
-    <section><!--Inscrição capa-->
+    <section class="caixa parallax-inscricao"><!--Inscrição capa-->
+        <div class="container" style="position:relative;">
+            <div class="conteudo-titulo">
+                <span class="titulo"> Venha participar </span>
+            </div>
+        </div>
+    </section><!--/Inscrição capa-->
 
-    </section>
+    <section class="caixa d-flex" id="inscricao"><!--formulario-->
+        <div class="container capa align-self-center">
+            <h2 class="mb-5">Inscreva-se</h2>
+            <form class="text-left">
+
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input class="form-control" type="email" id="email" placeholder="Digite seu email" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="cargo">Cargo</label>
+                    <select class="form-control" id="cargo" required>
+                        <option>Outro</option>
+                        <option>Estudante</option>
+                        <option>Desenvolvedor Júnior</option>
+                        <option>Desenvolvedor Pleno</option>
+                        <option>Desenvolvedor Sênior</option>
+                        <option>Engenheiro de Software</option>
+                        <option>Arquiteto de Soluções</option>
+                        <option>Analista de Dados</option>
+                        <option>Cientista de Dados</option>
+                        <option>Especialista em IA</option>
+                        <option>Product Manager</option>
+                        <option>UX/UI Designer</option>
+                        <option>DevOps</option>
+                        <option>QA/Testador</option>
+                        <option>Empreendedor</option>
+                        <option>Professor/Pesquisador</option>
+                    </select>
+                </div>
+
+
+
+            </form>
+        </div>
+    </section><!--/formulario-->
 
 
 
