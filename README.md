@@ -1,58 +1,49 @@
-🧠 TechSummit 2025 – Website
-Site fictício criado para divulgar e organizar o evento TechSummit 2025, um encontro voltado à tecnologia, inovação e networking profissional. O site é totalmente responsivo e oferece uma navegação intuitiva para os participantes.
+# 🌐 TechSummit 2025 – Website
 
-📌 Funcionalidades principais
-Página inicial com chamada para ação (CTA) e data do evento
+Site fictício criado para divulgar e organizar o evento **TechSummit 2025**, um encontro voltado à tecnologia, inovação e networking profissional. O site é totalmente responsivo e oferece uma navegação intuitiva para os participantes.
 
-Seções informativas:
+---
 
-Sobre o evento
+## 📌 Funcionalidades principais
 
-Programação por dia
+- Página inicial com chamada para ação (CTA) e data do evento  
+- Seções informativas:
+  - Sobre o evento
+  - Programação por dia
+  - Convidados (com descrição da palestra, cargo, empresa e redes sociais)
+  - Formulário de inscrição
+  - Localização com Google Maps embutido
+  - FAQ com perguntas frequentes
+- Rodapé completo com:
+  - Links rápidos
+  - Endereço
+  - Contato
+  - Redes sociais
+  - Créditos de desenvolvimento
 
-Convidados (com descrição da palestra, cargo, empresa e redes sociais)
+---
 
-Formulário de inscrição
+## 🛠️ Tecnologias utilizadas
 
-Localização com Google Maps embutido
+- HTML5  
+- CSS3  
+- Bootstrap 4  
+- Font Awesome  
+- Google Maps Embed  
+- Responsividade mobile com utilitários do Bootstrap
 
-FAQ com perguntas frequentes
+---
 
-Rodapé completo com:
+## 🧑‍💻 Desenvolvido por
 
-Links rápidos
-
-Endereço
-
-Contato
-
-Redes sociais
-
-Créditos de desenvolvimento
-
-🛠️ Tecnologias utilizadas
-HTML5
-
-CSS3
-
-Bootstrap 4
-
-Font Awesome (ícones)
-
-Google Maps Embed
-
-Responsividade mobile com classes utilitárias do Bootstrap
-
-🔗 Links e integração
-Ícones de redes sociais com Font Awesome
-
-Mapa incorporado via iframe do Google Maps
-
-Formulário visual pronto (sem back-end funcional no momento)
-
-Link para o GitHub do desenvolvedor no rodapé
-
-👨‍💻 Desenvolvido por
-Kauan Avelino
+**[Kauan Avelino](https://github.com/KauanAvelino)**  
 © 2025 TechSummit. Todos os direitos reservados.
+
+---
+
+## ⚠️ Observações
+
+> Este projeto é fictício, desenvolvido com fins educacionais e demonstrativos.  
+> Sinta-se à vontade para usar como referência ou inspiração.
+
 
