@@ -117,8 +117,14 @@ nav.navbar-transparente {
 }
 
 #sobre h2,
-#sobre h3 {
+#sobre h3,
+#local h2,
+#local h3{
     color: #9500FF;
+}
+
+#perguntas h3 {
+    color: #E100FF;
 }
 
 #programacao h2{
@@ -130,6 +136,14 @@ nav.navbar-transparente {
 
 .parallax-sobre {
     background: url("../img/fundo_sobre.jpg")no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallax-local {
+    background: url("../img/local-fundo.jpg")no-repeat center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -209,10 +223,6 @@ nav.navbar-transparente {
 
 /***cards convidados */
 
-.card-convidados {
-    min-height: 100%;
-}
-
 .card-convidados img {
     border-radius: 40px;
 }
@@ -235,6 +245,14 @@ nav.navbar-transparente {
 /***Formulário de inscrição ***/
 #inscricao {
     min-height: 100vh;
+}
+
+/***Formatações ***/
+
+#local li{
+    color: #fff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 
@@ -267,7 +285,7 @@ nav.navbar-transparente {
     color: #E100FF;
 }
 
-/****Label ***/
+/****Formatações Formularios ***/
 
 label {
     color: #fff;
